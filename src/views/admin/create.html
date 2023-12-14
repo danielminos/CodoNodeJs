@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREAR PRODUCTO</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <picture>
+                <img href="./index.html" src="/images/branding/logo_light_horizontal.svg" alt="logo-header">
+
+            </picture>
+            <ul>
+                <li>
+                    <a href="/pages/shop/shop.html">VER TIENDA</a>
+                </li>
+                <li>
+                    <a href="/pages/admin/admin.html">ADMIN</a>
+                </li>
+                <li>
+                    <a href="/pages/admin/">SALIR</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section>
+        <h1>CREAR NUEVO ITEM</h1>
+        <form action="" method="post">           
+            <div>
+                <label for="categoria">Categoría:</label>
+                <select name="categorias" id="categoria">
+                    <option value="">Seleccionar</option>
+                    <option value="STAR WARS">STAR WARS</option>
+                    <option value="HARRY POTTER">HARRY POTTER</option>
+                    <option value="POKEMON">POKEMON</option>
+                </select>
+                <label for="licencia">Licencia:</label>
+                <select name="licencias" id="licencia">                
+                    <option value="">Seleccionar</option>
+                    <option value="La amenaza Fantasma">Episodio I: La amenaza fantasma</option>
+                    <option value="El ataque de los Clones">Episodio II: El ataque de los Clones</option>
+                    <option value="La venganza de los sith">Episodio III: La venganza del os sith</option>
+                    <option value="El despertar de la Fuerza">El despertar de la Fuerza</option>
+                    <option value="Los ultimos Jedi">Los ultimos Jedi</option>
+                    <option value="El ascenso de skywalker">El ascenso de Skywalker</option>
+                    <option value="Naruto Shippuden">NARUTO SHIPPUDEN</option>
+                    <option value="Naruto Akudama">NARUTO AKUDAMA</option>
+                    <option value="Naruto Next Generations">NARUTO NEXT GENERATIONS</option>
+                    <option value="La piedra filosofal">La piedra Filosofal</option>
+                    <option value="La camara secreta">La camara Secreta</option>
+                    <option value="El prisionero de Azkaban"></option>
+                    <option value="El caliz de fuego">El Cáliz de Fuego</option>
+                    <option value="La orden del Fenix">La Orden del Fénix</option>
+                    <option value="El misterio de Principe">El misterio del principe</option>
+                    <option value="Las reliquias de la muerte 1">Las reliquias de la muerte 1</option>
+                    <option value="Las reliquias de la muerte 2">Las reliquias de la muerte 2</option>
+                    <option value="Animales Fantasticos">Animales Fantasticos</option>
+                    <option value="AF los crimenes de Grindelwald">Animales Fantasticos: los crímenes de Grindelwald</option>
+                    <option value="AF los secretos de Dumbledore">Animales Fantasticos: los secretos de Dumbledore</option>
+                </select>
+            </div>
+                <label for="nombreproducto">Nombre del Producto:</label>
+                <input type="text" name="nombre" id="nombreproducto">
+            <div>
+                <textarea name="descripcionproducto" id="descripcionproducto" cols="30" rows="10" placeholder="Descripcion del producto"></textarea>
+            </div>
+            <div>
+                <label for="sku">SKU</label>
+                <input type="text" name="sku" id="sku">
+                <label for="precio">Precio</label>
+                <input type="number" name="precio" id="precio" value="0.00">
+                <label for="stock">Stock</label>
+                <input type="number" name="stock" id="stock" value="0">
+            </div>
+            <div>
+                <label for="descuento">Descuento</label>
+                <input type="number" name="descuento" id="descuento" value="0%">
+                <label for="cuotas">Cuotas</label>                
+                <select name="cuotas" id="cuotas">
+                    <option value="1cuota">1 Cuota</option>
+                    <option value="3cuotas">3 Cuotas sin interes</option>
+                    <option value="6cuotas">6 Cuotas sin interes</option>
+                    <option value="9cuotas">9 Cuotas sin interes</option>
+                    <option value="12coutas">12 Cuotas sin interes</option>
+                </select>
+            </div>
+            <label for="files">Imágenes</label>
+            <input type="file" name="files" id="files">
+            <div>
+                <input type="submit" value="Agregar Producto">
+                <input type="reset" value="Limpiar">
+            </div>
+        </form>        
+    </section>
+</main>
+<footer>
+    <section>
+        <nav>
+            <ul><a href="./pages/shop/shop.html">SHOP</a></ul>
+            <ul><a href="./pages/admin/register.html">REGISTRARSE</a></ul>
+            <ul><a href="./pages/admin/login.html">LOGIN</a></ul>
+            <ul><a href="./pages/admin/contacto.html">CONTACTO</a></ul>
+        </nav>
+        <picture>
+            <img src="/images/branding/isotype.svg" alt="">
+        </picture>
+    </section>
+    <p>All rights reserved 2023 - </p>
+</footer>
+</body>
+</html>
